@@ -709,14 +709,13 @@ useEffect(() => {
           </h1>
           <p className="text-[#15447E] mt-[15px] md:mt-[30px] max-w-[650px] text-base md:text-lg">
           Just a Happy Guy AI is the mascot of Finch AI trading helper AI agent by Aigisos. With over 150,000 users we are bringing a positive change to crypto with AI powered tailored trading suggestions
-
           </p>
 
           {/* Buy Token Button */}
           <div className="mt-[15px] md:mt-[30px] inline-block">
-            <Link to="#">
+            <a href="#claimtoken" >
               <BuyToken />
-            </Link>
+            </a>
           </div>
 
           {/* Three Styled Buttons */}

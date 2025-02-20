@@ -8,15 +8,15 @@ export default function PlanSection() {
     >
       <div className="flex justify-center">
         <div className="w-full max-w-[1145px] px-4">
-          <h2 className="text-left text-black font-alfa text-lg sm:text-xl leading-6 sm:leading-7">
-            Just a Happy Guy AI represents positivity and was borne through the will of the Aigisos crypto community, with thousands of users voting to select it as our AI mascot. It is completely community-driven. When the entire crypto scene sometimes seems bleak, Just a Happy Guy AI wants you to be optimistic about a brighter future—a better life for everyone in crypto.
-          </h2>
-          <p className="mt-4 font-semibold text-black text-center">4% team, rest to community, airdrop, sale, and liquidity.</p>
-          
-          <h2 className="mt-8 text-center text-[#3A80FE] font-alfa text-lg sm:text-xl leading-6 sm:leading-7">
-            $HAPPYGUY Staking with up to 70% APY. Stake your HAPPYGUY on the platform and watch your earnings grow while contributing to the ecosystem's stability and security.
-          </h2>
-          
+          <div className="bg-white rounded-3xl shadow-[0px_0px_10px_rgba(58,128,254,0.15)] p-8">
+            <h2 className="text-center text-black/80 text-lg leading-7 architects-daughter-regular">
+              Just a Happy Guy AI represents positivity and was borne through the will of the Aigisos crypto community, with thousands of users voting to select it as our AI mascot. It is completely community-driven. When the entire crypto scene sometimes seems bleak, Just a Happy Guy AI wants you to be optimistic about a brighter future—a better life for everyone in crypto.
+            </h2>
+            <p className="mt-4 text-black/80 text-center text-xl architects-daughter-regular">4% team, rest to community, airdrop, sale, and liquidity.</p>
+            <h2 className="mt-8 text-center text-[#3A80FE] font-luckiest-guy text-lg leading-7 architects-daughter-regular">
+              $HAPPYGUY Staking with up to 70% APY. Stake your HAPPYGUY on the platform and watch your earnings grow while contributing to the ecosystem's stability and security.
+            </h2>
+          </div>
           <div className="flex justify-center mt-12 flex-wrap gap-6">
             {[
               "Access the Just a Happy Guy AI Dashboard",
@@ -35,7 +35,7 @@ export default function PlanSection() {
           <h2 className="mt-12 text-center text-[#3A80FE] font-luckiest-guy text-lg sm:text-xl leading-6 sm:leading-7">
             To participate in staking, you must be an $HAPPYGUY holder.
           </h2>
-          
+
           <div className="flex justify-center mt-8 flex-wrap gap-6">
             {[
               { title: "Plan 1", rate: "2.5%", period: "30 days" },

@@ -5,7 +5,7 @@ import EmailIcon from "./icons/EmailIcon";
 import XIcon from "./icons/XIcon";
 import ArrowUp from "./icons/ArrowUp";
 
-export default function Footer () {
+export default function Footer() {
   return (
     <div className="flex justify-center">
       <div className="w-[1145px] px-8 md:px-0">
@@ -13,19 +13,22 @@ export default function Footer () {
           <FooterLogo />
         </div>
         <div className="flex justify-center mt-10">
-          <div className="flex items-center gap-6">
-            <Link href="#">
-              <div className="">Home</div>
-            </Link>
-            <Link href="#">
-              <div className="">About</div>
-            </Link>
-            <Link href="#">
-              <div className="">Roadmap</div>
-            </Link>
-            <Link href="#">
-              <div className="">Faq</div>
-            </Link>
+          <div className="hidden md:flex items-center gap-6">
+            <a href="/" className="font-bold hover:text-blue-600">
+              Home
+            </a>
+            <a href="#about" className="font-bold hover:text-blue-600">
+              About Us
+            </a>
+            <a href="#roadmap" className="font-bold hover:text-blue-600">
+              Roadmap
+            </a>
+            <a href="#tokenomics" className="font-bold hover:text-blue-600">
+              Tokenomics
+            </a>
+            <a href="#faq" className="font-bold hover:text-blue-600">
+              FAQ
+            </a>
           </div>
         </div>
 
