@@ -1,0 +1,82 @@
+/* Countdown Timer Container */
+.countdown-container {
+    background: linear-gradient(135deg, #1e1e2f, #3c3c57); /* Gradient Background */
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  .countdown-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #ffde59; /* Yellow Title Color */
+  }
+  
+  /* Timer Row */
+  .countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Time Box */
+  .time-box {
+    background: #22223b;
+    border: 2px solid #ffde59; /* Yellow border */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    width: 80px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .time-box:hover {
+    transform: translateY(-5px);
+    border-color: #4caf50; /* Green on hover */
+  }
+  
+  /* Time Value (Numbers) */
+  .time-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffde59; /* Yellow */
+    margin-bottom: 5px;
+  }
+  
+  /* Time Label (Text) */
+  .time-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ccc;
+    letter-spacing: 1px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .time-box {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .time-value {
+      font-size: 24px;
+    }
+  
+    .time-label {
+      font-size: 12px;
+    }
+  }
+  
